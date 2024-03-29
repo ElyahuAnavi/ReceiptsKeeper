@@ -1,7 +1,5 @@
 # ReceiptsKeeper 🧾
 
-![App Screenshot Placeholder](#)
-
 ## Table of Contents
 - [Screenshots](#screenshots-)
 - [Overview](#overview-)
