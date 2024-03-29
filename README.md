@@ -8,6 +8,7 @@
 - [Installation](#installation-️)
 - [Usage](#usage-)
 - [Technical Details](#technical-details-)
+- [Dependencies](#dependencies-)
 - [Contributing](#contributing-)
 - [License](#license-)
 
@@ -67,6 +68,39 @@ To get started with ReceiptsKeeper, clone the repository to your local machine a
 - **Target SDK:** The app targets API level 33, compatible with a wide range of Android devices.
 - **Minimum SDK Requirement:** Supports devices with SDK version 27 and above.
 - **Dependencies:** Includes libraries for Firebase services and modern UI components to enhance the user experience.
+
+## Dependencies 📦
+
+Here's a list of dependencies used in ReceiptsKeeper:
+
+- **Testing Frameworks:**
+  - `junit:junit:4.13.2` - A unit testing framework for Java applications.
+  - `androidx.test.ext:junit:1.1.5` - Additional testing support for JUnit in Android.
+  - `androidx.test.espresso:espresso-core:3.5.1` - An instrumentation-based API to write UI tests.
+
+- **Android Support and UI:**
+  - `androidx.appcompat:appcompat:1.6.1` - Support library for app bar and UI elements on older Android versions.
+  - `com.google.android.material:material:1.9.0` - Material Design components for modern UI design.
+  - `androidx.constraintlayout:constraintlayout:2.1.4` - A powerful layout manager for flexible UI design.
+
+- **Firebase:**
+  - `com.google.firebase:firebase-auth:22.0.0` - Firebase authentication for user management.
+  - `com.google.firebase:firebase-firestore:24.6.1` - Firestore for cloud storage and syncing of app data.
+  - `com.google.firebase:firebase-storage:20.2.0` - Firebase storage for file management.
+  - `com.google.firebase:firebase-database:20.2.2` - Firebase Realtime Database for data syncing.
+
+- **Third-party Libraries:**
+  - `com.google.android.gms:play-services-auth:20.5.0` - Google Sign-In integration.
+  - `com.airbnb.android:lottie:3.7.1` - Library for rendering After Effects animations.
+  - `com.squareup.picasso:picasso:2.71828` - Image loading and caching library.
+  - `joda-time:joda-time:2.10.10` - Library for date and time manipulation.
+  - `de.hdodenhof:circleimageview:3.1.0` - Circular ImageView implementation.
+  - `com.github.razir.progressbutton:progressbutton:2.1.0` - Customizable progress button library.
+  - `com.prolificinteractive:material-calendarview:1.4.3` - Custom calendar view.
+  - `com.itextpdf:itextg:5.5.10` - Library for creating PDF documents.
+  - `com.github.f0ris.sweetalert:library:1.6.2` - Library for custom alert dialogs.
+
+These dependencies are integral to the functionality and aesthetics of ReceiptsKeeper, providing a robust and user-friendly experience.
 
 ## Contributing 🤝
 We welcome contributions to ReceiptsKeeper! Whether it's enhancing functionality, fixing bugs, or improving documentation, feel free to fork the repository and submit your pull requests.
